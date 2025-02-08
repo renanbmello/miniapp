@@ -1,0 +1,207 @@
+{
+  "data": {
+    "votes": [
+      {
+        "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
+        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "space": {
+          "id": "arbitrumfoundation.eth"
+        },
+        "proposal": {
+          "id": "0x45513bb63946582432afa7213bcb2677e877dabbd5722210efd5eaf45797031c",
+          "ipfs": "bafkreieb46ua4l3npaeslkesmnb3t3e5gjrmjrybi6cfodacno6sthipxy",
+          "space": {
+            "id": "arbitrumfoundation.eth",
+            "name": "Arbitrum DAO",
+            "avatar": "ipfs://bafkreiejp7kjzjm4mlck45xcfup5lha7wrgqlyghvrtvpjpu5sfb6rl2ei",
+            "network": "42161",
+            "admins": [],
+            "moderators": ["0xd6ca0daa6115bdf4577f26c9fa88f048d15e3ef9"],
+            "symbol": "ARB",
+            "terms": null
+          },
+          "type": "basic",
+          "title": "Request to Increase the Stylus Sprint Committee's Budget",
+          "body": "### Non-Constitutional\n\n## Abstract\n\n* The Stylus Sprint program saw overwhelming demand, with 147 applications requesting ~31.92 million ARB, significantly exceeding the initial budget.\n* This proposal requests an **additional 4 million ARB** to extend the committee’s original budget. The funds will enable the evaluation committee to fund a set of exceptional applications that were excluded due to budget constraints.\n* The committee has provided the list of applicants that it strongly recommends deserve to be funded as part of the Sprint, in addition to the 5M ARB already [allocated](https://forum.arbitrum.foundation/t/stylus-sprint-results-announcing-the-accepted-applications/28294). Rationale and a summary of the applicants is linked in the proposal.\n* We will be moving this request to **Snapshot next Thursday, February 6th**. If approved, an onchain vote will move forward the following Thursday as to not further disrupt the proposed timelines of the applicants.\n\n## Motivation/Rationale\n\nWith 147 applications and ~31.92 million ARB in funding requests, demand for the Stylus Sprint program significantly exceeded expectations. The committee received a large number of exceptional applications, but unfortunately, due to the initial budget constraints, the committee was only able to fund 17 applications. They were chosen based on a combination of factors including cost, timeline, necessity for immediate start, RFP category importance, and the priority to fund both applications and infrastructure/tooling.\n\nWhile the committee has [accepted](https://forum.arbitrum.foundation/t/stylus-sprint-results-announcing-the-accepted-applications/28294) a subset of the applicants, there remains an important opportunity to support impactful ideas and high-quality teams. With Stylus as one of Arbitrum’s strongest competitive advantages, the committee strongly believes that enabling all impressive applications received as a part of the Stylus Sprint with funding is a worthwhile investment for the DAO.\n\nThis proposal seeks an additional allocation of 4 million ARB tokens to extend funding opportunities to promising projects that were not initially accepted into the Sprint. With this budget extension, the committee will be able to fund an additional group of applicants, outlined in detail below. While there are many more strong applications, the recommended list scored especially high during the review process and are ones that the committee is confident have the potential to provide value to the Arbitrum and Stylus ecosystems.\n\n## Specifications\n\nAs stated in the original Stylus Sprint proposal, large requests may be directed to the DAO directly to request funding. This process was communicated to applicants, some of which elected to go this route over reducing their request. The smaller applicants in this list are in the committee’s opinion worthwhile investments that have the potential to improve Stylus long-term.\n\nThe following list of applicants are the ones that come with a strong recommendation from the committee and to reiterate were unable to be accepted due to budget constraints.\n\nOpen Application\n\n1. [Pyth Oracle Implementation in Stylus](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677ead288f4a6bf40504bf73&isRenderingProposalBody=true) - ARB Requested: 1,000,000\n2. [Sylow](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6736959690449961f536371f&isRenderingProposalBody=true) - ARB Requested: 700,000\n3. [Nuffle Labs](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=675080fe90449961f5919181&isRenderingProposalBody=true) - ARB Requested: 500,000\n4. [Syndicate MintVM](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677c5c2bfaef5017a82a1d09&isRenderingProposalBody=true) - ARB Requested: 210,000\n5. [Ember: LP Optimization with Volatility-based Dynamic Fees](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677b6194faef5017a81d9e61&isRenderingProposalBody=true) - ARB Requested: 100,000\n\nRFP Track\n\n1. [Moving Stylus: Move to Stylus-compatible WASM compiler](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677b5396faef5017a81d67fb&isRenderingProposalBody=true) - ARB Requested: 450,000\n2. [Trail of Bits: Add Stylus as a Solang compiler target](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6771b86f8f4a6bf405ad6d8c&isRenderingProposalBody=true) - ARB Requested: 440,000\n3. [StylusFuzz: Advanced Property Testing for WASM Contracts](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=674fb60d902931f05c15e3c9&isRenderingProposalBody=true) - ARB Requested: 408,200\n4. [CodeTracer](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6767477ffaef5017a89b48a2&isRenderingProposalBody=true) - ARB Requested: 250,000\n\nRationale and a summary of each applicant’s proposed scope can be found in this [document](https://docs.google.com/document/d/17YvYmIuYI0Yx0IKrjVL1epDEGRChLRYNnSlkFU-IEKw/edit?usp=sharing).\n\nIt is important to note that the decision to include the above applicants is based on the finalized version of their submission that was reviewed during the grading period.\n\nDue to the open nature of the DAO, applicants not included in this recommendation maintain the ability to move their request directly to the forums in case they feel like they have a compelling case despite the non-acceptance from the committee, effectively circumventing the Stylus Sprint and evaluation committee. The committee is aware of some applicants that may bring revised versions and/or lower budgets than when they were originally reviewed. While we appreciate that Arbitrum DAO’s open and decentralized essence provides the freedom to make such requests, we’d encourage delegates to be mindful of the possible precedent funding projects circumventing the program would set. When appropriate, the committee has already directed certain applications to be on the look out for alternative DAO programs, such as the Season 3 of [Arbitrum D.A.O](https://forum.arbitrum.foundation/t/non-constitutional-rfc-arbitrum-d-a-o-domain-allocator-offerings-grant-program-season-3/27584) program if it's approved.\n\nIf this proposed extension is approved on Snapshot, we will move it immediately to an onchain vote the following Thursday, February 20th. The recommended applicants will be held to the current Stylus Sprint timeline, so the committee would like to not unnecessarily delay the ability to fund these projects. Projects funded as part of the Stylus Sprint’s budget increase will benefit from the infrastructure already in place as far as MSS/payments and milestone reviews by the evaluation committee.\n\nThe Snapshot vote will be a basic vote with For, Against, and Abstain as options.\n\n## Budget\n\nThe Stylus Sprint committee is requesting an **additional 4,000,000 ARB** to extend its Stylus Sprint budget. If approved, the funds will be sent to the existing MSS-controlled Stylus Sprint multisig.\n\n## Timeline\n\n**January 30th:** Forum Post\n**February 6-13th:** Snapshot Vote\n**February 20th - March 6th:** Tally Vote\n**March 9th:** Funds delivered to Stylus Sprint multisig\n**March 10th:** Recommended teams join the Stylus Sprint\n\n## Conflicts of Interest\n\nEntropy and the committee have no conflicts of interest associated with the recommended applicants or this proposal requesting an extension of funds.",
+          "discussion": "https://forum.arbitrum.foundation/t/request-to-increase-the-stylus-sprint-committee-s-budget/28312?u=entropy",
+          "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+          "quorum": 0,
+          "quorumType": "default",
+          "start": 1738868146,
+          "end": 1739472946,
+          "snapshot": 303324753,
+          "choices": ["For", "Against", "Abstain"],
+          "labels": [],
+          "scores": [25193838.25124729, 54879.07532122653, 89538.66508177284],
+          "scores_total": 25338255.991650287,
+          "scores_state": "pending",
+          "state": "active",
+          "strategies": [
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "ARB",
+                "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+                "decimals": 18
+              },
+              "network": "42161"
+            }
+          ],
+          "created": 1738868146,
+          "updated": null,
+          "votes": 1703,
+          "privacy": "",
+          "plugins": {},
+          "flagged": false
+        },
+        "ipfs": "bafkreieonzcvrcf66japdkmmza4dcvzvaelfbm6o62lizqgdro2qzjkjse",
+        "choice": 1,
+        "vp": 20708919.50942275,
+        "reason": "",
+        "created": 1738867822
+      },
+      {
+        "id": "0xcd2255d1e339272c8d723368565421209c55c5250c2d2b39dbc18a59cda62e5b",
+        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "space": {
+          "id": "apecoin.eth"
+        },
+        "proposal": {
+          "id": "0xb732d60fcf82a2cd739f94fb76e950734475f08ce7b588e801fae9736f46f636",
+          "ipfs": "bafkreieqh6vfeed23r2ey2qqig62j4j3prh4ohhf5m4tctiavlwnwdr3yi",
+          "space": {
+            "id": "apecoin.eth",
+            "name": "ApeCoin DAO",
+            "avatar": "ipfs://QmfVZLhH51S1G3UVFRZecXR5KbhS1CQ9RVbpgsqU25YG2C",
+            "network": "1",
+            "admins": [
+              "0xfa98d153324ff559c1ce413cb39fc2ae9a74bc28",
+              "0x7d208c8fb4b0cc8a735fce53959da487f309a17c"
+            ],
+            "moderators": [],
+            "symbol": "APE",
+            "terms": null
+          },
+          "type": "basic",
+          "title": "AIP-529: Development and Enhancement of APE-BOT Discord Tipping Bot",
+          "body": "### PROPOSAL DESCRIPTION\nI’d like to advance the development of APE-BOT, a tool designed to enable apes to tip any user on any Discord server leveraging the ApeChain ecosystem.\n\nAlthough it is still a prototype, the bot is already up and running and uses the Curtis testnet.\nOnce the mainnet has launched, it will be immediately available there too in it’s current state.\n\nYou can check it out and play with it on my Discord server or just invite it to yours:\n\nThe Ape Bot’s server: [The Ape Bot's server](https://discord.gg/H5ksJW7y58)\nAPE-BOT’s invite link: [https://bit.ly/477oFKg](https://bit.ly/477oFKg) (or just directly invite it from my server)\n\nThis app is different than most other tipping bots. Instead of a centralized database, it actually uses the ApeChain for every transaction.\nAlthough, I must point out that this is still “just” a tipping bot which means that wallets are auto generated for users and are kept on the server computer. It is not a fully fledged non-custodial wallet. However, I believe it is still a better option than those fully centralized bots out there.\nI’m also planning on building a function where you could import wallets to your account and sign every tip with MetaMask, making it more secure without the need for me to store user keys.\nI’d like to work on many more features for the bot and it’s security as well as to create a sustainable model for its long-term operation.\n\nKey developments will include improving overall security, integrating wallet functionalities with MetaMask, adding requested tokens automatically, enabling token creation, role staking, developing community games like poker, and perhaps transitioning it to a more reliable cloud hosting in the future.\n\nI’m requesting a grant so I can fully focus on this project.\nAs of right now I have very little time to work on it.\n\nI would like to also request the right to use the ApeCoin logo for the bot if possible.\n\n### BENEFIT TO APECOIN ECOSYSTEM\nAPE-BOT directly enhances the ApeCoin ecosystem by facilitating microtransactions and increasing community interaction. By enabling tipping within Discord, the bot encourages the use of ApeCoin between users unlike other bots that are using inner databases instead of the blockchain.\n\n**Every community needs a tipping bot. It makes the entire guild more fun and engaging. It’s the tool to create actual economy in these spaces and to keep them alive.**\n\nIt’s not only for tipping. You can reward the users for being in your guild and motivate them for staying active. You can reward your members for attending events or fulfilling any request you have come up with.\nSub-communities will emerge on the ApeChain with their very own tokens. It will be crucial for all of them to have a functioning tipping bot.\nThis will be a must-have tool for these groups to become successful.\n\nI’d like to create a secure and sustainable bot, that’ll keep bringing value to the ApeCoin community.\n\nThis investment is expected to lead to:\n- Increased engagement within the ApeCoin community.\n- A rise in ApeCoin transactions and circulation.\n- The creation of new use cases for ApeCoin within social environments.\n\nCURRENT LIST of AVAILABLE FEATURES:\n- Automatic wallet generation upon first use of the bot. (or if someone else tips you first)\n- “$address” command to view your generated address to be used to hold funds.\n- “$tip” command to tip one or multiple users as well as the ability to tip an entire @role by mentioning it. (example usage: $tip @Role 10 ape)\n- “$balance” for balance checking.\n- “$airdrop” is a popular command among similar bots that lets users join in on a fun, timed game where active participants can claim a share of the airdrop. It’s a great way to engage the community and reward activity (example usage: $airdrop 100 ape 10m)(for 10 minutes).\n- “$tokens” command to check currently available tokens for tipping.\n- “$withdraw” - withdrawing funds from the bot.\n\nTO DO:\n- Overall security. \nAlthough, having each account directly interact with the chain with their own wallet instead of using an inner database is better, it is still my server that’s generating your wallets and must keep them safe.\nThis will always remain as the default functionality for the bot even if the wallet import function is finally present.\nDiscord tipping bots must remain easy and convenient to use from the beginning. Although, options for other methods must be in place.\n- Performance enhancements to seamlessly serve any amount of requests.\n- Squashing bugs, general maintenance.\nPlenty of bugs to fix now and in the future too I’m sure.\n- Auto Token Addition.\nAt the beginning adding new tokens to the bot will be done manually by me upon request. If there are too many requests I might need to add a fee to that.\nThe best option however, would be to automate this part so the user would be able to add any token they wish. A small fee would still likely be needed to avoid spamming the system.\n- Role staking solution\nThis is a way to incentivize people to stake certain amounts of $APE or tokens in order to receive access to various Discord roles.\n- Games Integration.\nI’d like to integrate a poker game into the bot where stakes would be done either in $APE or any ApeChain token that is listed in the bot. I’m sure this would be an amazing addition.\n- Website Development\nA dedicated website would also be needed of course.\n- Business Model Development.\nExplore and implement self-sustainable revenue models for the bot. Fees will need to be introduced for some features.\n\nAt the moment, I’ve implemented a service fee of 5 cents per tx. This is just one idea of a business model to make the bot actually sustainable in the long run. However, this is subject to change and might very well be revised in the future based on community input.\nThe 5-cent flat fee is paid whenever a transaction-related command is used. If you’re creating an airdrop or tipping hundreds of users at once, the fee remains the same and does not multiply. The user is charged only once per command.\n\nPerhaps the poker game could have a fee for the house. The Mint and Swap future ideas could have an extra fee in place.\n\nFuture ideas:\n- Mint Tokens\nUsers could create tokens with the bot.\n- Token Swap\nMaking it easier and more convenient to swap tokens right inside the bot.\n- Cloud hosting\nIn case hosting the bot on dedicated hardware proves to be unreliable then I shall switch to cloud hosting instead.\n\n### OVERALL COST\n**Total amount requested from the ApeCoin Ecosystem Fund = $40,000.**\n\nA single lump sum payment of $40,000 USD has been requested.\n\nDevelopment: $30,000.\nAudit: $10,000.\n\nAs suggested, I have allocated an additional $10K to hire an auditor for two rounds of security testing.\nFor an application of this scale, this amount should suffice.\nThe first audit will take place after I have implemented security practices to the best of my abilities. The second audit will occur after most, if not all, of the planned features are in place. Any future audits should be covered by the bot’s revenue.\n\nThe grant would cover the entire development of the bot/app and allow for complete focus and dedication. The cost is calculated based on what I’d need to fully focus on this project for an entire year.\n\nAfter that the app must sustain itself by revenue generated from fees.\n\nThis will ensure that the project receives the attention it needs to succeed, ultimately benefiting the ApeCoin community by delivering a fully developed, secure and sustainable Discord Tipping Bot.\n\n### PROPOSAL\nLink to the full proposal: (https://forum.apecoin.com/t/aip-529-development-and-enhancement-of-ape-bot-discord-tipping-bot/25915)\n\n*The AIP implementation is administered by the Ape Foundation. Implementation may be immaterially or materially altered to optimise for security, usability, to protect APE holders, and otherwise to effect the intent of the AIP. Any material deviations from an AIP, as initially approved, will be disclosed to the APE holder community.*",
+          "discussion": "https://forum.apecoin.com/t/aip-529-development-and-enhancement-of-ape-bot-discord-tipping-bot/25915",
+          "author": "0x00Cef6B61fd57d481e569C64Ac5280736023de7F",
+          "quorum": 1,
+          "quorumType": "default",
+          "start": 1738893600,
+          "end": 1740016800,
+          "snapshot": 21791300,
+          "choices": ["For", "Against", "Abstain"],
+          "labels": [],
+          "scores": [78350.21348009892, 149651.19647573633, 541.6368268107619],
+          "scores_total": 228543.04678264615,
+          "scores_state": "pending",
+          "state": "active",
+          "strategies": [
+            {
+              "name": "erc20-balance-of",
+              "params": {
+                "symbol": "APE",
+                "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+                "decimals": 18
+              },
+              "network": "1"
+            },
+            {
+              "name": "delegation",
+              "params": {
+                "symbol": "APE (delegated)",
+                "strategies": [
+                  {
+                    "name": "erc20-balance-of",
+                    "params": {
+                      "symbol": "APE",
+                      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+                      "decimals": 18
+                    }
+                  },
+                  {
+                    "name": "erc20-votes",
+                    "params": {
+                      "symbol": "APE (staked)",
+                      "address": "0x0187Ae64E905b4FE7Dd1568a5642fbEf05E96e71"
+                    }
+                  }
+                ]
+              },
+              "network": "1"
+            },
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "APE (lock up)",
+                "address": "0xc6B740025485104987303E99DD2c54c1369FFe7B"
+              },
+              "network": "1"
+            },
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "APE (staked)",
+                "address": "0x0187Ae64E905b4FE7Dd1568a5642fbEf05E96e71"
+              },
+              "network": "1"
+            },
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "APE(BendDAO)",
+                "address": "0xd97420142211c0C8ACF6276e73d8B7A7b09386BB"
+              },
+              "network": "1"
+            },
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "APE(Para)",
+                "address": "0x29E297cBfDBF0420c05b2c499AFe7F3c7AF816cd"
+              },
+              "network": "1"
+            },
+            {
+              "name": "eth-balance",
+              "params": {
+                "symbol": "APE"
+              },
+              "network": "33139"
+            },
+            {
+              "name": "delegation",
+              "params": {
+                "symbol": "APE",
+                "strategies": [
+                  {
+                    "name": "eth-balance",
+                    "params": {
+                      "symbol": "APE"
+                    }
+                  }
+                ],
+                "delegationSpace": "apecoin.eth",
+                "delegationNetwork": "1"
+              },
+              "network": "33139"
+            }
+          ],
+          "created": 1738891197,
+          "updated": null,
+          "votes": 279,
+          "privacy": "",
+          "plugins": {},
+          "flagged": false
+        },
+        "ipfs": "bafkreieqh6vfeed23r2ey2qqig62j4j3prh4ohhf5m4tctiavlwnwdr3yi",
+        "choice": 1,
+        "vp": 18197348.42163126,
+        "reason": "https://forum.arbitrum.foundation/t/aip-timeboost-nova-fee-sweep/28247/33",
+        "created": 1738759625
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+// import { GET } from '../route';
+// import { JsonService } from '@/lib/services';
+// import { NextResponse } from 'next/server';
+
+// // Mock do JsonService
+// jest.mock('@/lib/services', () => ({
+//   JsonService: {
+//     readJson: jest.fn(),
+//   },
+// }));
+
+// describe('Proposals API', () => {
+//   beforeEach(() => {
+//     // Limpa todos os mocks antes de cada teste
+//     jest.clearAllMocks();
+//   });
+
+//   it('should return proposals successfully', async () => {
+//     // Mock data
+//     const mockProposals = {
+//       data: {
+//         proposals: [
+//           {
+//             id: '1',
+//             title: 'Test Proposal',
+//             body: 'Test Body',
+//             author: '0x123',
+//             state: 'open',
+//             votes: 10
+//           }
+//         ]
+//       }
+//     };
+
+//     // Configure o mock para retornar os dados
+//     (JsonService.readJson as jest.Mock).mockResolvedValue(mockProposals);
+
+//     // Execute a função
+//     const response = await GET();
+//     const responseData = await response.json();
+
+//     // Verificações
+//     expect(JsonService.readJson).toHaveBeenCalledWith('proposals.json');
+//     expect(responseData).toEqual({
+//       data: mockProposals.data,
+//       success: true
+//     });
+//   });
+
+//   it('should handle errors appropriately', async () => {
+//     // Simula um erro
+//     const mockError = new Error('Failed to read file');
+//     (JsonService.readJson as jest.Mock).mockRejectedValue(mockError);
+
+//     // Execute a função
+//     const response = await GET();
+//     const responseData = await response.json();
+
+//     // Verificações
+//     expect(JsonService.readJson).toHaveBeenCalledWith('proposals.json');
+//     expect(response.status).toBe(500);
+//     expect(responseData).toEqual({
+//       error: mockError
+//     });
+//   });
+
+//   it('should return empty proposals array when no data is found', async () => {
+//     // Mock retornando dados vazios
+//     (JsonService.readJson as jest.Mock).mockResolvedValue({
+//       data: {
+//         proposals: []
+//       }
+//     });
+
+//     // Execute a função
+//     const response = await GET();
+//     const responseData = await response.json();
+
+//     // Verificações
+//     expect(JsonService.readJson).toHaveBeenCalledWith('proposals.json');
+//     expect(responseData).toEqual({
+//       data: {
+//         proposals: []
+//       },
+//       success: true
+//     });
+//   });
+// });

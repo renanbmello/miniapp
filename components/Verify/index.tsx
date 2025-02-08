@@ -15,7 +15,7 @@ export type VerifyCommandInput = {
 };
 
 const verifyPayload: VerifyCommandInput = {
-  action: "test-action", // This is your action ID from the Developer Portal
+  action: "Vote", // This is your action ID from the Developer Portal
   signal: "",
   verification_level: VerificationLevel.Orb, // Orb | Device
 };
@@ -66,6 +66,23 @@ export const VerifyBlock = () => {
     setHandleVerifyResponse(verifyResponseJson);
     return verifyResponseJson;
   }, []);
+
+  const getTransaction = useCallback(async () => {
+    if (!MiniKit.isInstalled()) {
+      console.warn("Tried to invoke 'verify', but MiniKit is not installed.");
+      return null;
+    }
+    // https://developer.worldcoin.org/api/v2/minikit/transaction/{transaction_id}?app_id=&type=
+    const verifyResponse = await fetch(`/api/v2/minikit/transaction/0xe4d64a696199356ab7432912d5cb1f97048bd8f92703034831a506163403e3e9?app_id=&type=`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    // TODO: Handle Success!
+    const verifyResponseJson = await verifyResponse.json();
+  }, [])
 
   return (
     <div>
