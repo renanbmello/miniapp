@@ -1,4 +1,5 @@
 ## Votium
+Miniapp at World App that helps you effortlessly monitor your involvement in decentralized governance. 
 
 ## Setup
 
