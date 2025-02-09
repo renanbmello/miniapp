@@ -3,7 +3,7 @@
     "votes": [
       {
         "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
-        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "voter": "0xC52b54356854F80AC8cacde8f7b2449bAFDD13DE",
         "space": {
           "id": "arbitrumfoundation.eth"
         },
@@ -72,7 +72,7 @@
       },
       {
         "id": "0xcd2255d1e339272c8d723368565421209c55c5250c2d2b39dbc18a59cda62e5b",
-        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "voter": "0xC52b54356854F80AC8cacde8f7b2449bAFDD13DE",
         "space": {
           "id": "apecoin.eth"
         },
@@ -222,7 +222,7 @@
       },
       {
         "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
-        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "voter": "0xC52b54356854F80AC8cacde8f7b2449bAFDD13DE",
         "space": {
           "id": "arbitrumfoundation.eth"
         },
@@ -282,11 +282,12 @@
           "privacy": "shutter",
           "plugins": {},
           "flagged": false
-        }
+        },
+        "choice": 2
       },
       {
         "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
-        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "voter": "0xC52b54356854F80AC8cacde8f7b2449bAFDD13DE",
         "space": {
           "id": "arbitrumfoundation.eth"
         },
@@ -346,7 +347,8 @@
           "privacy": "",
           "plugins": {},
           "flagged": false
-        }
+        },
+        "choice": 0
       }
     ]
   }
