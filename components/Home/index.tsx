@@ -99,6 +99,12 @@ const MobileProposalDisplay = ({ userAddress }: { userAddress: string }) => {
     return <div className="text-center text-sm text-red-500 p-4">{error}</div>;
   }
 
+  const colors = [
+    "text-green-500", // For
+    "text-red-500",   // Against
+    "text-gray-500"   // Abstain
+  ];
+
   return (
     <div className="absolute top-12 space-y-2 columns-xs pl-2 pr-2">
       <div className="flex justify-between items-center w-full">
@@ -156,6 +162,9 @@ const MobileProposalDisplay = ({ userAddress }: { userAddress: string }) => {
             <DialogTitle>{selectedProposal?.proposal.title}</DialogTitle>
           </DialogHeader>
           <div className="text-sm space-y-2 flex-shrink-0">
+            <div>
+              Your vote: <span className={colors[selectedProposal?.choice]}>{selectedProposal?.proposal.choices[selectedProposal?.choice] }</span>
+            </div>
             <div className=" flex justify-between items-center w-full">
               <p>
                 <span className="font-semibold">Author:</span>{" "}
@@ -168,7 +177,6 @@ const MobileProposalDisplay = ({ userAddress }: { userAddress: string }) => {
                   calculateRemainingTime(selectedProposal.proposal.end)}
               </p>
             </div>
-            {/* <p>Votes: {selectedProposal?.proposal.votes}</p> */}
             {selectedProposal ? (
               <VoteProgress votingData={selectedProposal!!.proposal} />
             ) : null}
