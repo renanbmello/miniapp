@@ -16,7 +16,9 @@
             "avatar": "ipfs://bafkreiejp7kjzjm4mlck45xcfup5lha7wrgqlyghvrtvpjpu5sfb6rl2ei",
             "network": "42161",
             "admins": [],
-            "moderators": ["0xd6ca0daa6115bdf4577f26c9fa88f048d15e3ef9"],
+            "moderators": [
+              "0xd6ca0daa6115bdf4577f26c9fa88f048d15e3ef9"
+            ],
             "symbol": "ARB",
             "terms": null
           },
@@ -30,9 +32,17 @@
           "start": 1738868146,
           "end": 1739472946,
           "snapshot": 303324753,
-          "choices": ["For", "Against", "Abstain"],
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
           "labels": [],
-          "scores": [25193838.25124729, 54879.07532122653, 89538.66508177284],
+          "scores": [
+            25193838.25124729,
+            54879.07532122653,
+            89538.66508177284
+          ],
           "scores_total": 25338255.991650287,
           "scores_state": "pending",
           "state": "active",
@@ -92,9 +102,17 @@
           "start": 1738893600,
           "end": 1740016800,
           "snapshot": 21791300,
-          "choices": ["For", "Against", "Abstain"],
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
           "labels": [],
-          "scores": [78350.21348009892, 149651.19647573633, 541.6368268107619],
+          "scores": [
+            78350.21348009892,
+            149651.19647573633,
+            541.6368268107619
+          ],
           "scores_total": 228543.04678264615,
           "scores_state": "pending",
           "state": "active",
@@ -201,6 +219,134 @@
         "vp": 18197348.42163126,
         "reason": "https://forum.arbitrum.foundation/t/aip-timeboost-nova-fee-sweep/28247/33",
         "created": 1738759625
+      },
+      {
+        "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
+        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "space": {
+          "id": "arbitrumfoundation.eth"
+        },
+        "proposal": {
+          "id": "0x94aa0d049330cbcf96df72fb315defad810001e47107023826cb6e426f52d8eb",
+          "ipfs": "bafkreig53cdykt2ma3qkrla6luo24nozuwbpzpa3dwzavvw4rf24vhpnmm",
+          "space": {
+            "id": "shutterdao0x36.eth",
+            "name": "Shutter DAO 0x36",
+            "avatar": "ipfs://bafybeig7lfq46wxavyqr6ck7gu3lbgjbc2tia4c57kyxqm2hk6fn5bq7ha",
+            "network": "1",
+            "admins": [
+              "0xfc7d75e4bb6d18591cdc1e766ce7cf231bc08fbc"
+            ],
+            "moderators": [],
+            "symbol": "SHU",
+            "terms": null
+          },
+          "type": "basic",
+          "title": "Using an Yelay Vault to grow Shutter DAO 0x36's Treasury",
+          "body": "# Summary 📑\nInvest $2.3M USDC from Shutter DAO’s treasury into Yelay’s DeFi Blue Chip Vault, optimized to deliver superior returns of 15% APY, equivalent to $345k USDC annually. Yelay’s vault leverages advanced auto-compounding, rebalancing across leading stable strategies like Morpho, Ethena, Gearbox, and Yearn, and operates without any fees—ensuring maximum yield retention and simplicity in management.\n\n**Key advantages over competitors:**\n•\t**Higher Projected Yields:** Consistent double digit returns, currently between 15-20%\n•\t**Reduced Fee Policy:** No management, entry and exit fees the vault just includes a 10% performance fee. \n•\t**Operational Simplicity:** Our “set and forget” approach ensures no active management from Shutter DAO, with advanced automations handling all rebalancing and compounding.\n•\t**Total Control and Flexibility:** Full real-time transparency, with the ability for Shutter DAO to withdraw increase funds at any moment without restrictions.\n•\t**Secure Investments:** Over $280M routed so far with $400K invested in security audits, a $1.5M bug bounty program and a dedicated risk team ensures unparalleled safety.\n\n# Operational Details 📬\n•\t**Vault Choice:** Select Yelay’s custom-made DeFi Blue Chip Vault, specifically designed for conservative yet effective yield generation.\n•\t**Initial Investment:** Propose the full amount of $2.3M USDC to capitalize on optimal market conditions and maximize returns.\n•\t**Yield Handling:** All generated yield will be auto compounded or it can be automatically directed back to Shutter DAO’s treasury, at the chosen periodicity (e.g. monthly, quarterly, or yearly), enhancing treasury growth.\n\n# Shutter DAO DeFi Bluechip Vault\n\nShutter’s DeFi Bluechip vault would include our tailored DeFi strategies:\n●\t**Ethena USDC:** Deposit USDC in order to exchange it to USDe, stake it and receive yield-bearing sUSDe\n●\t**Yearn V3:** Yearn V3 USDC deposits USDC to Compound V3 USDC and Aave V3 USDC pools and compounds rewards.\n●\t**Gearbox V3:** The Gearbox USDC strategy supplies $USDC to the Gearbox V3 protocol to accrue APY, and then converts accumulated $GEAR tokens in $USDC to be compounded.\n●\t**Morpho-Gauntlet:** The Gauntlet USDC Prime vault aims to optimize for risk-adjusted yield across large market cap and high liquidity collateral markets.\n**Current expected APY:** 15%-20%\n**Expected generated yield:** $345k USDC - $460k USDC\n\n# Motivation\nYelay aims to substantially grow Shutter DAO’s financial base with minimal operational demand and maximum security. This proposal aligns with Shutter’s objectives of enhancing financial efficiency and strategic growth, providing a straightforward, low maintenance, effective solution to treasury management.",
+          "discussion": "https://shutternetwork.discourse.group/t/dao-fund-leveraging-yelay-vaults-for-sustainable-growth-and-treasury-management/508",
+          "author": "0x46FF1b2B030201F572E22FC18c26974EC8Fe8819",
+          "quorum": 30000000,
+          "quorumType": "default",
+          "start": 1733224203,
+          "end": 1733483403,
+          "snapshot": 21321585,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "labels": [],
+          "scores": [
+            11122198.59377714,
+            32543326.914954174,
+            12008863.124065569
+          ],
+          "scores_total": 55674388.63279688,
+          "scores_state": "final",
+          "state": "closed",
+          "strategies": [
+            {
+              "name": "erc20-votes-with-override",
+              "params": {
+                "symbol": "SHU",
+                "address": "0xe485E2f1bab389C08721B291f6b59780feC83Fd7",
+                "decimals": 18
+              },
+              "network": "1"
+            }
+          ],
+          "created": 1733224203,
+          "updated": null,
+          "votes": 22,
+          "privacy": "shutter",
+          "plugins": {},
+          "flagged": false
+        }
+      },
+      {
+        "id": "0x7e868bfcfd526ce19c2c536878e46a5fd653280293003483bb35f184924395ec",
+        "voter": "0x7a45eE0be5C4BdC938A5F00A2AEF393f46502D26",
+        "space": {
+          "id": "arbitrumfoundation.eth"
+        },
+        "proposal": {
+          "id": "0x6baef084d47cb0e0f5788449e0d6fafd6312a69f65b550d62d5b6772297b8695",
+          "ipfs": "bafkreibyatzb225x6vbh54wdgxvlfohaem3ma6nuf2bfduauxod3hy2qr4",
+          "space": {
+            "id": "arbitrumfoundation.eth",
+            "name": "Arbitrum DAO",
+            "avatar": "ipfs://bafkreiejp7kjzjm4mlck45xcfup5lha7wrgqlyghvrtvpjpu5sfb6rl2ei",
+            "network": "42161",
+            "admins": [],
+            "moderators": [
+              "0xd6ca0daa6115bdf4577f26c9fa88f048d15e3ef9"
+            ],
+            "symbol": "ARB",
+            "terms": null
+          },
+          "type": "basic",
+          "title": "Arbitrum Strategic Objective Setting (SOS) – Defining the DAO’s Interim Goals",
+          "body": "# Non-Constitutional\n\n# Abstract\n\nFollowing the passing of the [Unifying Arbitrum’s Mission, Vision, Purpose (MVP)](https://v1.snapshot.box/#/arbitrumfoundation.eth/proposal/0xf5fdce242b85134153397754d25a43a49611a3e8a1c73b2e11a67e864c56e022) proposal, we’re moving to the next step in aligning the Arbitrum DAO on its end-state goals and the more granular strategies through which these will be reached. Arbitrum Strategic Objective Setting (SOS) is an initiative through which DAO members will be able to propose and vote on a cohesive set of short- to mid-term objectives in a collective, inclusive, and adaptable way.\n\nThrough the SOS, any contributor can submit a set of short-term (1-year) and mid-term (2-year) objectives and related tangible key results for the DAO. The set of objectives should directly drive the DAO closer to reaching its vision, and align with the mission and purpose, as listed in the MVP proposal. The DAO will then vote on the proposed sets of objectives to select a single collection for implementation.\n\nEvery 12 months, the chosen objective set will be reviewed and, if needed, revised based on changing market conditions, the competitive environment, progress made in the past year, etc. In order to keep the DAO up to date with the progress towards each strategic objective, we suggest the research member of the ARDC be tasked with providing quarterly reports assessing how the DAO has improved through proposals and initiatives as well as suggesting what areas require more attention while recommending solutions to address these areas.\n\nOnce a set of objectives and related key results has been approved, Entropy will strive to build a budgeting framework where each high-level objective is allocated a certain amount of capital on a yearly basis, with interested contributors having the ability to request a share of this capital through a standardized structure. It’s important to note that contributors will still maintain the ability to post standalone proposals outside of this structure and are not forced to tie their initiative to the MVP/SOS/budget framework. Having said that, as the established objectives should be regarded as one of the DAO’s highest priorities, contributors should expect more friction when it comes to passing a proposal that doesn’t reasonably demonstrate that it fits within the established short- to medium-term objectives. In other words, while the freedom to make proposals that fall outside the SOS will not cease to exist, we expect that the DAO will discourage it via the creation of a social contract among delegates.\n\n# Motivation & Rationale\n\nDiversity is undeniably one of Arbitrum DAO’s strengths. We have hundreds of delegates from all around the world with varying perspectives, cultural behaviors, interests, incentives, etc. This is a double-edged sword, however, as it makes it more demanding to converge on unified goals and interim focus areas. The absence of concrete and agreed-upon goals today makes it challenging for the DAO to review progress and facilitate accountability, while it may be unclear to contributors what deliverables they should be prioritizing. Similar to the MVP proposal, the SOS takes inspiration from [Lido](https://research.lido.fi/t/the-guided-open-objective-setting-exercise-goose-proposal-a-genesis-step-to-jump-start-a-dao-wide-goal-setting-exercise-and-cadence/5355)’s approach to materializing short- and medium-term objectives for the DAO.\n\nBy establishing clear short- and mid-term strategic objectives and key results, the outcome of the SOS will serve as a roadmap that will bring cohesion and direction to the DAO’s activities. This structured approach will enable the DAO to move beyond reactive governance and toward proactive strategic development. Having well-defined objectives allows the DAO to measure progress better, identify operational gaps, and adjust course when needed.\n\nThese objectives will create a shared foundation for evaluating opportunities across the DAO’s diverse contributor base. When assessing new initiatives or responding to market developments, delegates and contributors will have tangible criteria to inform their choices. This alignment will help prevent the dilution of efforts that can occur in DAOs, ensuring collective resources and energy are directed towards Arbitrum’s most important goals. A regular review cycle ensures the DAO’s objectives remain responsive to changing conditions while maintaining momentum toward the mission, vision, and purpose. If the MVP helps to define the DAO’s long-term vision, then the SOS allows Arbitrum DAO to chart the course to get there.\n\n# Specifications\n\nThis proposal can be considered to have two distinct phases. The first phase comprises a ~14-day forum review, feedback, and edit period after which the SOS framework will move to the 7-day offchain voting period. If passed, Entropy will consider the structure of the SOS accepted by the DAO, and the second phase will be initiated. In phase two, contributors will submit their strategic objectives matrices with one matrix finally chosen through a Snapshot vote. The periods making up the second phase are described below.\n\n## Notice Period (14 days)\n\nAt the beginning of the 14-day notice period, announcements will be made on the forum and all the other relevant communication channels (e.g., Twitter, Telegram, etc.), giving delegates and contributors enough time to prepare for the upcoming submission period. This announcement will include:\n\n1. The expected start and end dates of all the subsequent periods (submission, feedback, and revision).\n2. Guidelines on how to submit a proposed set of short- and medium-term objectives as well as related key results.\n3. Link to an open channel through which anyone can submit one-off objectives and related key results for consideration by those looking to develop a full-fledged objectives matrix submission.\n4. Link to an FAQ forum thread where delegates can ask questions about the program.\n\nEntropy Advisors will facilitate the end-to-end process in cooperation with the Arbitrum Foundation and any other relevant parties.\n\n## Submission Period (30 days)\n\nThis submission period lasts 30 days, during which delegates and contributors are invited to make their submissions. Those interested in participating will have to create a forum post under a designated Strategic Objective Setting (SOS) subcategory. The goal-setting methodology utilized will be the Objectives and Key Results framework, where each objective (high-level, inspirational goal) is accompanied by key results (specific, measurable outcomes) that once reached, represent an objective having been completed. As a reminder, these objectives should indisputably align with the DAO’s mission, vision, and purpose. At a minimum, a valid submission must include the following information:\n\n1. View of Arbitrum’s current state and what its strengths/weaknesses are\n2. Short-term objectives (1 year)\n3. Mid-term objectives (2 years)\n5. Key results, i.e., measurable success metrics, for all objectives\n6. Risks connected to all objectives\n7. High-level estimates of non-capital resources needed for each objective\n8. Rationale explaining how the objectives align with Arbitrum’s MVP and why they were chosen given Arbitrum’s current state\n\nThe format for a SOS submission post on the forum is as follows (note, while the Title and headers should follow the below format, the information under each header is up to the author; this is a non-exhaustive list):\n\n* Title\n  * Format: [SOS Submission] {Delegate} – Strategic Objectives\n  * Example: [SOS Submission] Entropy Advisors – Strategic Objectives\n* Summary\n  * A brief summary of the strategic objectives\n  * High-level explanation of their impact on Arbitrum.\n  * Main focus areas for each proposed objective (i.e., Stylus, Orbit, Gaming, etc.)\n* Rationale\n  * A general overview of Arbitrum’s current state, including where the author sees the ecosystem’s strengths and weaknesses.\n  * Explanation of how these objectives are aligned with Arbitrum’s MVP, why they were chosen given Arbitrum’s current state, and what risks, required non-capital resources, and expected outcomes are related to the objectives.\n  * Key assumptions and strategic reasoning behind chosen objectives.\n* 1-Year Strategic Objectives & Key Results\n  * A clear and specific statement of each objective.\n  * ~2-5 measurable key results/success metrics per objective.\n\n* 2-Year Strategic Objectives & Key Results\n  * Same format as 1-year strategic objectives.\n* Further Details\n  * Anything else the author feels as though relevant to include in their submission.\n\n### Condensed Example of a 2-Year Strategic Objective (figures are illustrative):\n\nObjective: Arbitrum becomes the indisputable leader within a selection of onchain finance-related verticals: stablecoins, RWAs, and lending.\n\nAlignment with the MVP: As onchain finance-related verticals continue to grow in usage, importance, and impact, it is imperative for Arbitrum to achieve a market-leading position in a certain set of these sectors. Doing so ensures that the ecosystem stays aligned with its vision of being the home for the universal shift onchain, with Arbitrum rollups as the first stop in crypto for users and the default platform for developers.\n\nKey Result 1: Arbitrum One becomes the second largest blockchain in terms of stablecoin volume traded on onchain exchanges.\n\nKey Result 2: RWAs (excluding stablecoins) held within the Arbitrum ecosystem grow by 20x from when the DAO chooses its set of objectives.\n\nKey Result 3: The Arbitrum ecosystem reaches a 30% market share of all outstanding onchain loans.\n\nWhile the number of strategic objectives in a matrix is not limited, proposers should consider the DAO’s capacity to effectively focus on multiple areas simultaneously. Moreover, while the objectives should be aspirational, they must also be attainable. When providing feedback or choosing a specific objective matrix, we encourage delegates to evaluate their feasibility critically. Implementing unrealistic objectives and key results would most likely result in wasted efforts and be counterproductive.\n\nA given year’s objectives are expected to be limited to a specific focus area and not to overlap with each other. As such, we recommend submitters refrain from proposing objectives that are too high level since the potential for overlap increases. Having said that, the sets of 1- and 2-year objectives can be the same as long as key results across years are different.\n\nSee this example from [Hasu’s proposed goals for Lido](https://research.lido.fi/t/hasus-goose-submission-proposed-goals-for-lido-dao-to-consider/5590). When objectives form a cohesive, well-documented strategy, it is more likely to gain support from delegates. Just giving the DAO a list of objectives likely will not be sufficient; the expectation is for the objectives to make up a holistic strategy with a well-reasoned rationale.\n\n## Feedback period (21 days)\n\nOnce the submission period is over, no new objective matrices can be put forward. The submission period is followed by a 21-day feedback period. During this time, submitters are prohibited from making changes to their submissions to allow delegates to examine each submission, provide feedback, and propose edits. This period ensures that all delegates have ample time to familiarize themselves with each submission and that everyone is commenting on the same submission versions.\n\n## Revision Period (14 days)\n\nDuring the revision period, submitters may amend their objective matrices based on community feedback if they wish to do so. Apart from making edits, this period enables submitters to merge their proposals with others, mixing and matching objectives across submissions (note that a given year’s objectives should still have no overlap). If two or more proposals are merged, proposers should post the final version as a new submission in the SOS subcategory and modify the original submissions’ titles to indicate that they have been merged as well as include a link to the merged version at the top of the original submissions. If a proposer feels as though their objectives and key results are already adequately covered by another submission, they are also free to withdraw their submission during the revision period. At the end of the revision period, submissions will be locked and considered as the final versions, which will be the ones put up for a Snapshot vote to choose the DAO’s strategic objectives matrix.\n\n## Voting period (7 days)\n\nFinally, the voting period. Entropy will be in charge of creating a Snapshot vote with a list containing all finalized strategic objective matrices in a single proposal, with delegates voting on which matrix they are the most aligned with and see as optimal. The Snapshot will utilize single-choice voting with an option to abstain. Quorum is reached when at least 3% of all votable tokens have participated in the Snapshot, with the option that has received the most votes being implemented. A strategic objectives matrix proposer is free to vote on their own submission.\n\nFor the avoidance of doubt, delegates will vote on standalone matrices formed by sets of 1- and 2-year objectives and key results. Please note that if there is a vast amount of submissions going to a Snapshot vote, Entropy reserves the right to postpone the initiation of the vote following the revision period to ensure that delegates are given some additional time to examine the final versions of submissions. If there is any confusion in navigating the forum throughout this process, e.g., where to post, how to title posts, how to merge proposals with another author/similar proposal, etc., Entropy Advisors will be available to answer any questions from the community.\n\n## Review Phase & Ad Hoc Strategic Objective Adjustments\n\nAfter the initial strategic objectives matrices are defined and one has been chosen, the DAO is encouraged to review the chosen matrix on a yearly basis. This ensures the objectives and their key results remain relevant and aligned with the DAO’s evolving needs and the overall market dynamics. The process is similar to the second phase described earlier, but delegates can propose to modify existing objectives/key results, add new ones, or remove those that are no longer relevant.\n\nA review phase should be initiated 12 months after the previous voting period has ended. Ideally, OpCo has already been operationalized by then, meaning that the DAO can instruct the entity to manage the review phase. As stated earlier, we propose that the research member of the ARDC is initially tasked with providing quarterly reports assessing how the DAO has progressed with respect to its strategic objectives. Once OpCo is operationalized, this responsibility could also be transferred to the entity if the DAO chooses to do so.\n\nThe review phase is initiated by passing a Snapshot vote. In the proposal, the proposer must define who is in charge of managing the review phase. Given the review phase Snapshot vote passes, there will be a 14-day notice period. This will consist of a forum post updating delegates on the current state of the strategic objectives and informing them on what this review phase consists of. Among other things, this forum post should include:\n\n1. A summary of the strategic objectives and how successful the DAO has been with respect to fulfilling them.\n2. The expected start and end dates of all the subsequent periods.\n3. Guidelines on how to submit an amendment.\n4. Link to a FAQ forum thread where delegates can submit questions about the program.\n\nAfter the notice period, delegates are invited to submit amendments to the initially chosen strategic objectives matrix during a 30-day submission period. Amendments are not limited to simply modifying strategic objectives and key results. They can also involve removing, adding, or replacing specific objectives and associated key results.\n\nOnce the submission period ends, amendment submissions go through a 21-day feedback period during which no changes can be made to the submissions. Finally, a 14-day revision period will take place during which proposers can make edits to their proposed matrices and merge them with other proposed matrices before being locked and put up for a Snapshot vote to choose the new objective matrix. If no amendment submissions are made, there is no need to move to the feedback, revision, or voting periods, and the old objectives matrix will remain effective.\n\nNote that the review phase timeline given above can be modified at the discretion of the review phase proposer depending on the number of submissions made.\n\nAs mentioned earlier, the SOS review phase should be conducted annually, with each cycle beginning 12 months after the conclusion of the previous voting period. However, if there's a pressing need to review the strategic objectives due to, e.g., changes in the market environment, competitive space, or the DAO’s financials, a delegate can create a forum post outlining extensive reasoning for ad hoc adjustments accompanied by the proposed strategic objectives and related key results. Allowing for at least one week for discussion, the forum post will then be put up for a Snapshot vote utilizing single-choice voting with the options of adopting the proposed objectives and key results, initiating a fast-tracked review phase with a similar structure as described above (again, the proposer has to define who is managing this phase), and leaving the current objectives and key results unchanged.\n\nIt’s important to note that a well-structured strategy objectives matrix **should not be expected to be changed frequently**. As such, a proposed ad hoc adjustment must be extremely rigorously argumented and only take place if most of the previous strategic objectives have been reached or given unprecedented/emergency circumstances. Moreover, delegates ought to be highly critical when such adjustments are proposed. For example, the proposer simply stating that they disagree with the current objectives should not be a strong enough reason to modify the objectives.\n\nIf an objectives matrix is changed on an ad hoc basis, the originally scheduled review phase will be pushed back. This phase should only be initiated once 12 months have elapsed since the previous vote to change the DAO’s strategic objectives and related key results has passed.\n\nAdditionally, the DAO’s strategic objectives and related key results can be removed by creating a forum post explaining the reasoning to do so. Allowing for at least one week for discussion, the post will be moved to a single-choice Snapshot vote with the voting options “For”, “Against”, and “Abstain”, requiring a simple majority with at least 3% of all votable tokens voting either “For” or “Abstain” for the proposal to pass.\n\nPreviously chosen, not yet achieved objectives and related key results will remain active during a Review/Ad Hoc Strategic Objective Adjustments Phase to ensure the continuity of the DAO's strategic direction, replaced only once a new objectives matrix has been selected through a dedicated voting process. I.e., unless the DAO votes to remove its objectives, the continuity of the SOS is ensured.\n\n# Timeline\n\n* First Phase (Ratification of the SOS Framework):\n  * Review, Feedback, & Edit Period: January 10th - January 23rd\n  * Snapshot Period: January 23rd - January 30th\n* Second Phase (Ratification of a Strategic Objectives Matrix):\n  * Notice Period: 14 days (note that this period's initiation might be pushed back slightly such that submitters will have more time to include possible takeaways from ETHDenver into their matrices during the Submission Period) \n  * Submission Period: 30 days\n  * Feedback Period: 21 days\n  * Revision Period: 14 days\n  * Voting Period: 7 days\n* Review Phase (Potential Amendments to the Strategic Objectives Matrix): Initiated 12 months after the previous voting period has ended or as a result of an ad hoc adjustments proposal as described above.\n\n*Note that any of the time periods in the first and second phases can be shortened/extended at Entropy’s discretion depending on the number of submissions received.*",
+          "discussion": "https://forum.arbitrum.foundation/t/arbitrum-strategic-objective-setting-sos-defining-the-dao-s-interim-goals/28102",
+          "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+          "quorum": 0,
+          "quorumType": "default",
+          "start": 1737677189,
+          "end": 1738281989,
+          "snapshot": 298602250,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "labels": [],
+          "scores": [
+            137793892.4581608,
+            50394.722899135115,
+            3896.3564330744
+          ],
+          "scores_total": 137848183.53749302,
+          "scores_state": "final",
+          "state": "closed",
+          "strategies": [
+            {
+              "name": "erc20-votes",
+              "params": {
+                "symbol": "ARB",
+                "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+                "decimals": 18
+              },
+              "network": "42161"
+            }
+          ],
+          "created": 1737677189,
+          "updated": null,
+          "votes": 3559,
+          "privacy": "",
+          "plugins": {},
+          "flagged": false
+        }
       }
     ]
   }
